@@ -3,7 +3,14 @@ name = "rs-lines2zstd-seekable"
 version = "0.1.0"
 edition = "2024"
 
+description = "Seekable zstd compression for line-delimited text"
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-lines2zstd-seekable"
+documentation = "https://docs.rs/rs-lines2zstd-seekable/latest"
+keywords = ["zstd", "seekable", "compression", "lines", "convert"]
+
 exclude = [
+  "lines2zeek.wasm",
 ]
 
 [lints.rust]
